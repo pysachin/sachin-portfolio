@@ -1,0 +1,43 @@
+._nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.navAchor {
+  color: var(--white-color);
+  scale: 2px;
+  text-decoration: none;
+}
+
+.navAchor,
+.navAchor:link,
+.navAchor:hover,
+.navAchor:visited,
+.navAchor:active {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.navAchor:hover {
+  text-decoration: none;
+  color: var(--white-color);
+  transform: scale(0.7);
+}
+
+.styleUINavDiv {
+  display: inline;
+  color: var(--white-color);
+  margin-right: 5rem;
+}
+
+@media (max-width: 640px) {
+  ._nav {
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px;
+    border: 0px;
+  }
+}

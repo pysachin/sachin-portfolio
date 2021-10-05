@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 1rem;
+  border: 2px solid var(--primary-color);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}

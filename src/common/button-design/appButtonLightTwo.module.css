@@ -1,0 +1,56 @@
+.heroCtaTwo {
+  display: flex;
+}
+
+/* Call to Action Button */
+.ctaBtnTwo {
+  display: inline;
+  position: relative;
+  padding: 0.8rem var(--default-font-size);
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  font-size: 1rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ctaBtnHeroTwo {
+  border: 2px solid;
+}
+
+.ctaBtnResumeTwo {
+  border: 2px solid;
+}
+
+.ctaBtnTwo:hover,
+.ctaBtnHeroTwo:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.ctaBtnTwo:after {
+  content: "";
+  position: absolute;
+  background: var(--primary-color);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -2;
+  border-radius: 5px;
+  transition: all 250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.ctaBtnTwo:hover {
+  color: white;
+  border-radius: 5px;
+}
+
+.ctaBtnTwo:hover:before {
+  opacity: 0.8;
+}
+.ctaBtnTwo:hover:after {
+  top: 0;
+}

@@ -1,0 +1,21 @@
+.projectMain {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.projectIntro {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}

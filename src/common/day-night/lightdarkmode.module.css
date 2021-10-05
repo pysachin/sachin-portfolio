@@ -1,0 +1,13 @@
+.modeContainer {
+  font-size: 4rem;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.mode {
+  font-size: 2rem;
+  cursor: pointer;
+}
