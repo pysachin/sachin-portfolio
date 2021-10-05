@@ -9,7 +9,7 @@ class Contact extends Component {
                 <p style={{margin:"5px"}}><i class="fas fa-envelope-square"></i>  143chauhansachin@gmail.com</p>
                 <p> <i class="fab fa-github"></i> https://github.com/pysachin </p>
                 <p> <i class="fab fa-linkedin"></i> https://www.linkedin.com/in/sachin-kumar-a2631b147 </p>                       
-                <p style={{margin:"5px"}}><i class="fas fas fa-globe"></i>  www.xyz.com</p>            
+                <p style={{margin:"5px"}}><i class="fas fas fa-globe"></i> https://sachincode.herokuapp.com/</p>            
                 <p style={{margin:"5px"}}><i class="fas fa-map-marker-alt"></i>  Delhi, India</p> 
             </div>
         );

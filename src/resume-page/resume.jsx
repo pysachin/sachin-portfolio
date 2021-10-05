@@ -16,7 +16,7 @@ class Resume extends Component {
                            <div>
                                 <p style={{margin:"5px"}}><i class="fas fa-phone-square"></i>  9013357025</p>
                                 <p style={{margin:"5px"}}><i class="fas fa-envelope-square"></i>  143chauhansachin@gmail.com</p>
-                                <p style={{margin:"5px"}}><i class="fas fas fa-globe"></i>  www.xyz.com</p>            
+                                <p style={{margin:"5px"}}><i class="fas fas fa-globe"></i>  https://sachincode.herokuapp.com/</p>            
                                 <p style={{margin:"5px"}}><i class="fas fa-map-marker-alt"></i>  Delhi, India</p>                                            
                            </div>
                        </div>
